@@ -80,7 +80,7 @@ fun_features:
   # 为 subtitle 添加打字机效果
   # Typing animation for subtitle
   typing:
-    enable: true
+    enable: false
 
     # 打印速度，数字越大越慢
     # Typing speed, the larger the number, the slower
@@ -205,7 +205,7 @@ custom_js:
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
-custom_css:
+custom_css: '/css/style.css'
 
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
@@ -434,7 +434,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/default.png
+  banner_img: /img/banner.png
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -449,7 +449,7 @@ index:
   # 首页副标题的独立设置
   # Independent config of home page subtitle
   slogan:
-    enable: true
+    enable: false
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
@@ -506,7 +506,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: /img/banner.png
   banner_img_height: 40
   banner_mask_alpha: 0.3
 
@@ -800,7 +800,7 @@ cusdis:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: /img/banner.png
   banner_img_height: 40
   banner_mask_alpha: 0.3
   subtitle:
@@ -812,7 +812,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/banner.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -842,7 +842,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/banner.png
   banner_img_height: 40
   banner_mask_alpha: 0.3
   subtitle:
@@ -860,7 +860,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/banner.png
   banner_img_height: 40
   banner_mask_alpha: 0.3
   subtitle:
@@ -883,7 +883,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/default.png
+  banner_img: /img/banner.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -894,7 +894,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/banner.png
   banner_img_height: 85
   banner_mask_alpha: 0.3
   subtitle: "Página no encontrada"
@@ -906,7 +906,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/banner.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
